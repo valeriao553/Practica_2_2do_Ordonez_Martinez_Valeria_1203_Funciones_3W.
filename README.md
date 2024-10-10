@@ -5,26 +5,20 @@ Practica 2
 print(" ")
 print("Ordonez Martinez Valeria 3W 1203, Practica 2 Funciones")
 print(" ")
-
 def my_function():  #Declarar la funcion
-    print("Hey amigos")  #Imprimir mensaje
-    
+print("Hey amigos")  #Imprimir mensaje
 while True: #Crear bucle while
-    my_function()  # Llama a la función
-    
-    #Repetir el mensaje cada vez que se pusle el numero 1
-    repetir = input("Si quiere volver a repetir la función pulse '1' (o cualquier otra tecla para salir): ")
-    print(" ")
-    
-    if repetir != '1':  #Condicion de evaloacion
-     
-     break  # Salir del bucle si no se presiona '1'
-
-     ![image](https://github.com/user-attachments/assets/0b4c0708-0de0-4625-9267-f0d9e4c0bfb6)
-     ![image](https://github.com/user-attachments/assets/f07b2e34-0d71-4c10-94ed-41a9b97b2cf1)
+my_function()  # Llama a la función
+#Repetir el mensaje cada vez que se pusle el numero 1
+repetir = input("Si quiere volver a repetir la función pulse '1' (o cualquier otra tecla para salir): ")
+print(" ")
+if repetir != '1':  #Condicion de evaloacion
+break  # Salir del bucle si no se presiona '1'
+![image](https://github.com/user-attachments/assets/0b4c0708-0de0-4625-9267-f0d9e4c0bfb6)
+![image](https://github.com/user-attachments/assets/f07b2e34-0d71-4c10-94ed-41a9b97b2cf1)
 
 
-     # Ejercicio 2
+ # Ejercicio 2
 print(" ")
 print("Ordonez Martinez Valeria 3W 1203, Practica 2, ejercicio 2")
 print(" ")
@@ -68,7 +62,7 @@ print (" ")
 ![image](https://github.com/user-attachments/assets/b5a11f51-8253-4b02-bc7f-fa494a2db2c0)
 
 
-#IVA Ejercicio 4
+# IVA Ejercicio 4
 print(" ")
 print("Ordonez Martinez Valeria 3W 1203, Ejercicio 4")
 print(" ")
@@ -79,11 +73,11 @@ def factura_total(sin_iva, iva=21):
     # Calcular el total de la factura
     total = sin_iva + i
     return total
-# Pedir al usuario la cantidad sin iva
+#Pedir al usuario la cantidad sin iva
 x = float(input("Cantidad sin IVA: "))
-# pedir el porcentaje de iva
+#pedir el porcentaje de iva
 z = input("Ingrese el porcentaje de IVA (Si no se le aplica tendra valor de 21%): ")
-#  Convertirlo a float cuando se agregue el porcentaje
+#Convertirlo a float cuando se agregue el porcentaje
 if z:
     z = float(z)
 else:
@@ -194,10 +188,10 @@ z=int(input("Ingrese el tercer numero: "))
 print(" ")
 #Definir la funcion
 def mi_funcion(x,y,z):
-    #Comparar cual es mayor
-    mayor= max(x, y,z)
-    #Mostrar resultado
-    print("El mayor es: ", mayor)
+#Comparar cual es mayor
+mayor= max(x, y,z)
+#Mostrar resultado
+print("El mayor es: ", mayor)
 #Llamar funcion    
 mi_funcion(x,y,z)
 print(" ")
