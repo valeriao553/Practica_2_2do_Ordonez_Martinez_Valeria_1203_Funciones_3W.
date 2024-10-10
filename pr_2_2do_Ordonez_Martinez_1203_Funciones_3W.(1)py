@@ -1,0 +1,19 @@
+#Ejercicio 1
+print(" ")
+print("Ordonez Martinez Valeria 3W 1203, Practica 2 Funciones")
+print(" ")
+
+def my_function():  #Declarar la funcion
+    print("Hey amigos")  #Imprimir mensaje
+    
+while True: #Crear bucle while
+    my_function()  # Llama a la función
+    
+    #Repetir el mensaje cada vez que se pusle el numero 1
+    repetir = input("Si quiere volver a repetir la función pulse '1' (o cualquier otra tecla para salir): ")
+    print(" ")
+    
+    if repetir != '1':  #Condicion de evaloacion
+     
+     break  # Salir del bucle si no se presiona '1'
+     
